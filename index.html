@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+<meta charset="UTF-8">
+<title>Movie Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+
+<div class="logo">
+<a href="#">SPU SIT</a>
+</div>
+
+<ul class="menu">
+<li><a href="#">ภาพยนตร์</a></li>
+<li><a href="#">เกี่ยวกับเรา</a></li>
+<li><a href="#">ติดต่อเรา</a></li>
+</ul>
+
+</nav>
+
+<!-- Banner -->
+<section class="banner">
+<h1>สัมผัสโลกของภาพยนตร์สุดมันส์</h1>
+</section>
+
+<!-- Movies -->
+<section class="movies">
+
+<div class="movie-card">
+<img src="https://www.beartai.com/wp-content/uploads/2020/11/cover-11.jpg">
+<h3>Malevolent</h3>
+<button onclick="openModal()">ดูรายละเอียด</button>
+</div>
+
+<div class="movie-card">
+<img src="https://www.patsonic.com/wp-content/uploads/2022/03/term-2-haunted-universities-synopsis-featured.jpg">
+<h3>เทอมสองสยองขวัญ</h3>
+<button onclick="openModal()">ดูรายละเอียด</button>
+</div>
+
+<div class="movie-card">
+<img src="https://assets.ch3plus.com/activity/2023/08/165050352763.jpg">
+<h3>ANNABELLE VS THE BABADOOK</h3>
+<button onclick="openModal()">ดูรายละเอียด</button>
+</div>
+
+</section>
+
+<!-- Modal -->
+<div id="movieModal" class="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeModal()">&times;</span>
+
+<img src="https://www.beartai.com/wp-content/uploads/2020/11/cover-11.jpg" width="100%">
+
+<h2>Malevolent</h2>
+
+<p><b>ผู้กำกับ:</b> Olaf de Fleur</p>
+
+<p><b>นักแสดงนำ:</b> Florence Pugh, Ben Lloyd-Hughes</p>
+
+<p><b>เนื้อเรื่อง:</b> กลุ่มนักล่าผีที่รับงานหลอกลวงผู้คน แต่กลับต้องเจอกับเหตุการณ์เหนือธรรมชาติจริง</p>
+
+</div>
+
+</div>
+
+<!-- About -->
+<section class="about">
+
+<h2>เกี่ยวกับเรา</h2>
+
+<p>
+เว็บไซต์นี้สร้างขึ้นเพื่อแนะนำภาพยนตร์ที่น่าสนใจ
+และเป็นส่วนหนึ่งของการเรียนวิชา Web Development
+</p>
+
+</section>
+
+<!-- Contact -->
+<section class="contact">
+
+<h2>ติดต่อเรา</h2>
+
+<form>
+
+<input type="text" placeholder="ชื่อ-นามสกุล">
+
+<input type="email" placeholder="อีเมล">
+
+<textarea placeholder="ข้อความ"></textarea>
+
+<button type="submit">ส่งข้อมูล</button>
+
+</form>
+
+</section>
+
+<script>
+
+function openModal(){
+document.getElementById("movieModal").style.display="block";
+}
+
+function closeModal(){
+document.getElementById("movieModal").style.display="none";
+}
+
+</script>
+
+</body>
+</html>
+function closeModal(){
+document.getElementById("movieModal").style.display="none";
+}
+
+</script>
+<footer class="footer">
+
+<p>© 2025 Movie By 68105308</p>
+
+<div class="social">
+
+<a href="https://facebook.com" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" width="40">
+</a>
+
+<a href="https://instagram.com" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="40">
+</a>
+
+<a href="https://line.me" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/2111/2111498.png" width="40">
+</a>
+
+</div>
+
+</footer>
+</body>
+</html>
